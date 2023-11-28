@@ -3,7 +3,7 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
-const myAssistantId = "asst_T53lLMVSICP4OFfpCPEzQVir";
+const myAssistantId = "asst_Qv10YXJpGGhONnCyjJYZYlI3";
 let thread_id, run_id;
 
 async function thread() {
